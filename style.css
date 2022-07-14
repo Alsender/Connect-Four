@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.board {
+    height: 95vh;
+    width: 110vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px 20px;
+}
+
+.selected {
+    background-color: aquamarine;
+}
+
+div:not(.reveal) {
+    cursor: default;
+    color: white;
+}
+
+.reveal {
+    color: black;
+}
+
+.yellowish {
+    background-color: #fff389;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.redish {
+    background-color: #f88e86;
+}
+.red {
+    background-color: red;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: large;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 50%;
+}
